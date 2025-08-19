@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment { 
     MAVEN_HOME = tool 'MAVEN'  // Use the name given in Global Tool Configuration 
-    SONAR_SCANNER = tool 'SonarScanner
+    SONAR_SCANNER = tool 'SonarScanner'
 }
     stages {
         stage('Checkout Code') {
